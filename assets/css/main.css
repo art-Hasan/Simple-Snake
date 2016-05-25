@@ -1,0 +1,34 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #333;
+  margin: 0;
+  font: 1em "PT Sans", sans-serif, Tahoma;
+}
+
+.scores {
+  width: 300px;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 5px;
+  bottom: 0;
+  right: 0;
+  font-size: 1.6em;
+  text-align: center;
+  color: #16a085;
+}
+
+#canvas {
+  padding: 0;
+  margin: 40px auto 0;
+  border: 2px solid rgba(255,255,255,.3);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
