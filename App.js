@@ -340,7 +340,7 @@ window.onload = (function() {
 			eath.addObject({
 				width: 20, height: 20,
 				loc: new Vec2(100, 120),
-				step: 20, size: 7, world: eath }, Snake);
+				step: 20, size: 3, world: eath }, Snake);
 
 			// Start game
 			eath.start();
